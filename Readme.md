@@ -7,6 +7,7 @@ Sales proposals are built using CTRL+C, CTRL+V, and hope.
 Data is scattered across tools, leading to slow and inconsistent proposals.
 
 By the time everything is stitched together, deal momentum is already lost.
+
 ---
 
 ### Our solution
