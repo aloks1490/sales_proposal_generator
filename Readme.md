@@ -70,8 +70,10 @@ Create the following folders before running the app:
 
 ### Proposal Generator – UI Preview
 
-![Screenshot 1](images/Screenshot%202026-02-01%20at%207.31.11%20AM.png)
+![Screenshot 1](images/screenshot-1.png)
 
-![Screenshot 2](images/Screenshot%202026-02-01%20at%207.31.18%20AM.png)
+![Screenshot 2](images/screenshot-2.png)
+
+
 
 
