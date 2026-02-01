@@ -24,15 +24,11 @@ https://github.com/yourusername/ai-proposal-generator
 ```markdown
 # Proposal
 
-## 1. Executive Summary
-
-## 2. Understanding Your Needs
-
-## 3. Proposed Solution
-
-## 4. Pricing & Packages
-
-## 5. Next Steps
+1. Executive Summary
+2. Understanding Your Needs
+3. Proposed Solution
+4. Pricing & Packages
+5. Next Steps
 ```
 
 ## Tech Stack
@@ -46,15 +42,25 @@ https://github.com/yourusername/ai-proposal-generator
 | Document loading   | LangChain loaders                            | PDF, DOCX, TXT                     |
 | RAG Framework      | LangChain (LCEL)                             | clean chain composition            |
 
-## Quick Start
 
-### 1. Prerequisites
+### Repo structure
+```
 
-- Python 3.11
-- [Ollama](https://ollama.com/) installed and running
-- At least 8 GB RAM recommended
+.
+├── app.py                  # Streamlit interface
+├── rag_engine.py           # Core RAG logic + chain
+├── document_processor.py   # File loading utilities (not heavily used yet)
+├── data/
+│   └── chroma_db/          # Chroma vector storage (gitignored)
+├── uploads/                # Temporarily saved uploaded files (gitignored)
+├── requirements.txt
+└── .gitignore
+```
 
-```bash
-# Pull the model once (or choose another small model)
-ollama pull granite4:1b
-# or try: llama3.2:3b, phi3:3.8b, gemma2:2b, etc.
+## Required folders (not tracked in Git)
+
+Create the following folders before running the app:
+
+- uploads/
+- data/chroma_db/
+
