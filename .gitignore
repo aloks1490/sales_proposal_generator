@@ -1,0 +1,20 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+
+# Uploaded user/company data
+uploads/
+
+# Vector DB / Chroma storage
+data/chroma_db/
+
+# Old / deprecated files
+rag_engine_old.py
+rag_engine_v1.py
+requirements_old.txt
+
+# OS junk
+.DS_Store
