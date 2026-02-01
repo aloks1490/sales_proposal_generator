@@ -1,11 +1,16 @@
 # AI Proposal Generator  
-**Local RAG-powered business proposal writer**  
-(using Ollama + Chroma + LangChain)
+**business proposal writer**  
 
-Generate structured, professional sales proposals from your company documents + meeting notes — **completely offline** and **private**.
+### What problem we’re trying to solve
+Sales proposals are built using CTRL+C, CTRL+V, and hope.
 
-https://github.com/yourusername/ai-proposal-generator  
-*(replace with your actual repo link)*
+Data is scattered across tools, leading to slow and inconsistent proposals.
+
+By the time everything is stitched together, deal momentum is already lost.
+
+### Our solution
+We are building Proposal Generator. It’s built for busy B2B sales reps, account executives, and founders who want to go from discovery call/client meeting to client-ready proposal in minutes not hours.
+
 
 ## ✨ Features
 
