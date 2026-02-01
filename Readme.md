@@ -1,5 +1,5 @@
 # AI Proposal Generator  
-**business proposal writer**  
+
 
 ### What problem we’re trying to solve
 Sales proposals are built using CTRL+C, CTRL+V, and hope.
@@ -7,10 +7,12 @@ Sales proposals are built using CTRL+C, CTRL+V, and hope.
 Data is scattered across tools, leading to slow and inconsistent proposals.
 
 By the time everything is stitched together, deal momentum is already lost.
+---
 
 ### Our solution
 We are building Proposal Generator. It’s built for busy B2B sales reps, account executives, and founders who want to go from discovery call/client meeting to client-ready proposal in minutes not hours.
 
+---
 
 ## ✨ Features
 
